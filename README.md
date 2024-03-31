@@ -1,2 +1,1 @@
-# reinforcement-learning
-You will learn about RLHF from this repository 🤖.
+# Reinforcement Learning with Human Feedback 🤖
