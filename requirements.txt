@@ -1,0 +1,5 @@
+gymnasium[atari]
+pygame
+ale_py
+autorom
+gym
