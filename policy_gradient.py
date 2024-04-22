@@ -126,7 +126,7 @@ class REINFORCE:
         # Compute the loss.
         loss = 0
         for log_prob, discounted_reward in zip(self.probs, discounted_rewards):
-            loss += -log_prob.mean() * discounted_reward
+            loss += (-1) * log_prob.mean() * discounted_reward
 
         # Update the policy network.
         self.optimizer.zero_grad()
